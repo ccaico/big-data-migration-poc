@@ -1,0 +1,24 @@
+# FastAPI and ASGI server
+fastapi==0.95.2
+uvicorn==0.22.0
+
+# Database (SQLAlchemy and PostgreSQL driver)
+sqlalchemy==2.0.20
+psycopg2-binary==2.9.6  # Use `mysqlclient` for MySQL or `pyodbc` for SQL Server
+
+# Data validation (Pydantic)
+pydantic==1.10.7
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Avro for backups
+avro-python3==1.10.2
+
+# Testing (optional)
+pytest==7.3.1
+httpx==0.24.1
+
+# Development tools (optional)
+black==23.3.0  # Code formatting
+flake8==6.0.0  # Linting
